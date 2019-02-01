@@ -14,6 +14,9 @@ public class CustomersService {
 	@Autowired
 	private CustomerRepository customerRepository;
 
+	@Autowired
+	private CustomerRepository customerRepository2;
+
 	/**
 	 * iNITIALIZING data, "Bean" is the keyword!!!
 	 * @return
